@@ -14,6 +14,7 @@ cd RapidWright
 ./gradlew compileJava
 export PATH=`pwd`/bin:$PATH
 echo "export CLASSPATH=`pwd`/bin:`pwd`/jars/*" > bin/rapidwright_classpath.sh
+source bin/rapidwright_classpath.sh
 ```
 
 2. Install `rapidwright` and `jupyter` in python3 virtual environment:
